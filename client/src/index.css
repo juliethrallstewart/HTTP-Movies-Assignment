@@ -61,6 +61,13 @@ body {
 	width: 75px;
 }
 
+.save-button-update {
+	border: 1px solid grey;
+	padding: 5px 10px;
+	background-color: lightseagreen;
+	width: 75px;
+}
+
 .update-button {
 	position: absolute;
 	top: 60px;
@@ -94,4 +101,28 @@ body {
 .movie-warning {
 	color: red;
 	text-align: center;
+}
+
+.update-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.update-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.update-input {
+	margin-bottom: 15px;
+	width: 200px;
+	padding: 20px;
 }
